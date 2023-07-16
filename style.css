@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(13, 25, 48);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(208, 207, 207) ;
+    padding: 18px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ 
+ }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    margin-top: 10%;
+    color: white;
+    margin-bottom: 5%;
+}
+#bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    padding: 20px 100px 20px 100px;
+}
+
+.bar{
+    background-color: aqua;
+    margin: 0 2px;
+    width: 10px;
+    border-radius: 4px;
+    transition: height 0.3s;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+#complexity{
+   color: white;
+}
+#sorting-type{
+   color: white;
+}
+.buttons{
+    display: flex;
+    margin: 4% 0 0 0;
+}
+button{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 6px;
+    font-weight: bold;
+}

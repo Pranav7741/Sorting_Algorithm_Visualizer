@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Sorting Algorithms Visualization</title>
+</head>
+
+<body>
+
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Navbar</a>
+
+            
+
+        </header>
+        <div class="container">
+            <h1><i class="uil uil-arrow-growth"></i> Sorting Algorithms Visualizer <i class="uil uil-arrow-growth"></i>
+            </h1>
+            <div class="flex-container">
+                <div id="complexity">
+                    
+                </div>
+                <div id="bar-container" class="container-bar"></div>
+                <div id="sorting-type">
+                    
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="generate-button">
+                    <button class="generate" onclick="init()">Generate New Array</button>
+                </div>
+                <button class="sort-button" onclick="bubbleSort()"><i class="uil uil-angle-left"></i>Bubble Sort<i
+                        class="uil uil-angle-right"></i></button>
+                <button class="sort-button" onclick="quickSort()"><i class="uil uil-angle-left"></i>Quick Sort<i
+                        class="uil uil-angle-right"></i></button>
+                <button class="sort-button" onclick="mergeSort()"><i class="uil uil-angle-left"></i>Merge Sort<i
+                        class="uil uil-angle-right"></i></button>
+                <button class="sort-button" onclick="quickSort()"><i class="uil uil-angle-left"></i>Heap Sort<i
+                        class="uil uil-angle-right"></i></button>
+                <button class="sort-button" onclick="selectionSort()"><i class="uil uil-angle-left"></i>Selection Sort<i
+                        class="uil uil-angle-right"></i></button>
+                <button class="sort-button" onclick="insertionSort()"><i class="uil uil-angle-left"></i>Insertion Sort<i
+                        class="uil uil-angle-right"></i></button>
+            </div>
+
+        </div>
+        <script src="main.js"></script>
+        <script src="BubbleSort.js"></script>
+        <script src="QuickSort.js"></script>
+        <script src="MergeSort.js"></script>
+        <script src="SelectionSort.js"></script>
+        <script src="InsertionSort.js"></script>
+
+    </body>
+
+</html>
